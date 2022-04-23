@@ -1,10 +1,7 @@
 <?php
-require_once 'core/controller.php';
-require_once 'project/controller.php';
+require_once 'modules/cart/firstclass.php';
+require_once 'modules/cart/secondclass.php';
 
-$coreController = new \Core\Controller;
-$projectController = new \Project\Controller;
-
-$coreController->display();
-$projectController->display();
+$firstClass = new \Modules\Cart\FirstClass;
+$secondClass = new \Modules\Cart\SecondClass;
 ?>
