@@ -1,14 +1,14 @@
 <?php
 	namespace Project;
-    use \Core\Users\Data;
-	
+	use \Resourse\Controller\Page as ControllerPage;
+    use \Resourse\Model\Page as ModelPage;
+
 	class Test
 	{
 		public function __construct()
 		{
-			$data1  = new Data('user1');
-			$data2  = new Data('user3');
-			$data3  = new Data('user3');
+			$pageController  = new ControllerPage;
+			$pageModel       = new ModelPage;
 		}
 	}
 ?>
