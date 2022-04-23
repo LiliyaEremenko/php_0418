@@ -1,7 +1,7 @@
 <?php
-require_once 'modules/marketCart.php';
-require_once 'modules/shopCart.php';
+spl_autoload_register();
 
-$firstCart = new \Market\Cart\Cart;
-$secondCart = new \Shop\Cart\Cart;
+$user = new Core\User;
+$controller = new Core\Admin\Controller;
+$data = new Project\User\Data;
 ?>
