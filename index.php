@@ -1,7 +1,7 @@
 <?php
-require_once 'modules/shop/cart/firstclass.php';
-require_once 'modules/shop/cart/secondclass.php';
+require_once 'modules/marketCart.php';
+require_once 'modules/shopCart.php';
 
-$firstClass = new \Modules\Shop\Cart\FirstClass;
-$secondClass = new \Modules\Shop\Cart\SecondClass;
+$firstCart = new \Market\Cart\Cart;
+$secondCart = new \Shop\Cart\Cart;
 ?>
